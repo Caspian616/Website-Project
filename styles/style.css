@@ -1,0 +1,127 @@
+.hide-mobile {
+    display: none; /* hide */
+
+}
+
+body{
+   background-color: #021018; 
+   margin: 0;
+   font-family: "Inter";
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+}
+
+.wrap {
+    margin: 2em; /* relative to font-size of eleement */
+}
+
+header {
+    display: flex; /* stack elements side by side */
+    justify-content: space-between; 
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul {
+    background: white;
+    position: fixed; 
+    z-index: 999; /* sits ontop of everything */
+    top: 0;
+    right: 0; 
+    height: 100vh; 
+    margin: 0;
+    list-style: none; /* remove bullet points */
+    width: 40%;
+    text-align: right; 
+    padding: 2em; 
+    transform: translateX(100%); /* move horizontally to the right */
+    transition: transform 0.5s ease-in-out; /* slide animation */
+    li {
+        margin: 2em 0; 
+
+        &:nth-of-type(1){
+            margin-bottom: 4em;
+        }
+
+        a {
+            color: black;
+            text-decoration: none; /* no underline */
+            font-weight: bold;
+            font-size: 1.5rem;
+
+            &:hover {
+                text-decoration: underline;
+            }
+            
+        }
+
+    }
+}
+
+.open {
+    transform: translate(0%);
+}
+
+h1, p {
+    text-align: center;
+    color:white;
+}
+
+h1 {
+    margin-top: 1.9em;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.9rem
+}
+
+span {
+    color: #63D0FF;
+    font-weight: bold;
+}
+
+a.primary-cta{
+    background: #63D0FF;
+    padding: 1em; 
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem; 
+    color: white;
+    border-radius: 1em;
+
+
+}
+
+.my-life {
+    margin-top: 7em;
+
+    h1{
+        color:#63D0FF;
+        margin-bottom: 1.9em;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    p{
+        margin-top: 2.2em;
+    }
+}

@@ -145,3 +145,45 @@ a.primary-cta{
         margin-top: 2.2em;
     }
 }
+
+.about-me{
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.introduction{
+    
+    h1{
+        color:#63D0FF;
+        text-align: left;
+    }
+
+    p{
+        text-align: left;
+    }
+}
+
+.contact-me {
+    margin-top: 4em;
+    margin: auto;
+    text-align: center;
+
+    h1{
+        color:#63D0FF;
+
+    }
+
+    img{
+        margin: 0 0.2em;
+    }
+
+    footer{
+        color:white; 
+        font-size: 0.7rem;
+        margin-top: 1.0em;
+    }
+}

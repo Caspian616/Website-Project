@@ -167,6 +167,28 @@ a.primary-cta{
     }
 }
 
+.education{
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.journey{
+
+    h1{
+        color:#63D0FF;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .contact-me {
     margin-top: 4em;
     margin: auto;

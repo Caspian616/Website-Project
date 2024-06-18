@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caspian's Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div class="wrap">
+            <header>
+                <div class="header-left">
+                    <a href="index.html" class="logo">Caspian</a>
+                    <div class="divider"></div>
+                    <a href="#" class="home hide-mobile">Portfolio</a>
+                </div>
+
+                <nav>
+                    <a href="#" class="menu-open hide-desktop"> <img src="images/menu.svg" alt="Open menu"></a>
+                    <ul>
+                        <li>
+                            <a href="#" class="menu-close"> <img src="images/close.svg" alt="Close menu"></a>
+                            <li><a href="about-me.html">About Me</a></li>
+                            <li><a href="#">Interests & Hobbies</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Contact Me</a></li>
+                        </li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <main class="education">
+                <h1>Education</h1>
+                <img src="images/education.svg" alt="a person seated at a table waving at you">
+                <p class="subhead"><span>Welcome</span> to my mind.</p>
+            </main>
+
+            <section class="journey">
+                <h1>Journey</h1>
+                <img src="images/journey.svg" alt="education timeline">
+            </section>
+
+            <section class="contact-me">
+                <h1>Contact Me</h1>
+                <a href="https://linkedin.com/in/yim-zheng-rong"><img src="images/linkedin.svg" alt="social media logos"></a>
+                <a href="https://github.com/Caspian616"><img src="images/github.svg" alt="social media logos"></a>
+                <footer>Copyright @ Caspian616</footer>
+            </section>
+
+        </div>
+
+    <script>
+
+        const menu = document.querySelector("nav ul");
+        const menuBtn = document.querySelector(".menu-open");
+        const closeBtn = document.querySelector(".menu-close");
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.add('open')
+        })
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('open')
+        })
+
+    </script>
+
+</body>
+</html>

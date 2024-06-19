@@ -189,6 +189,25 @@ a.primary-cta{
     }
 }
 
+.achievements{
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.singapore-poly{
+    margin-top: 2.5em;
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .contact-me {
     margin-top: 4em;
     margin: auto;
